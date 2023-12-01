@@ -1,3 +1,4 @@
+import java.net.URI; 
 
 class HelloWorld {
 
@@ -6,5 +7,6 @@ class HelloWorld {
   
   public static void main(String argv[]) {
     System.out.println("Hello World");
+    URI uri = new URI(argv[0]); 
   }
 }
